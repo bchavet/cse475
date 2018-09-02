@@ -1,0 +1,25 @@
+CSE475 Project
+Team Win: Ben Chavet, Steve Mott, Justin McKinstry
+
+cse475-teamwin.zip contains the NetBeans project directory for our project.
+inferno.zip contains our binary executable (and libraries) for our project.
+
+To run the binary:
+unzip inferno.zip
+cd inferno
+java -jar inferno.jar
+
+The simulation environment is fairly straightforward.  It is an L x L grid of
+spaces that have a flamability value and a fuel level.  On the simulation
+setup, a specified number of these spaces is started on fire, and a specified
+number of firefighters are randomly placed in the environment.
+
+The goal is for the firefighters to put out the fire(s) without dying.  The
+simulation will run until all fires are gone, either by being extinguished by
+a firefighter, or by naturally burning out.  After the simulation, a number
+of useful statistics are printed to stdout.  These statistics include how many
+firefighters survived, the starting and ending state of the total amount of
+health distributed amongst the firegithers, and the starting and ending state
+of the total amount of fuel in the environment.
+
+We did not track the number of messages posted / read from our blackboard.

@@ -1,0 +1,16 @@
+Variables:
+
+K = NumberOfFires
+N = NumberOfFirefighters
+V = AgentVisibility
+
+Constants
+
+AgentEnergy              =  10
+AgentExtinguishBonus     =   1
+AgentShotStrengthPercent = 100
+GridSize                 = 100
+IgnitionProbability      =   0.02
+MaxFireStrength          = 100
+MaxFlamability           = 100
+MaxFuelLevel             = 100

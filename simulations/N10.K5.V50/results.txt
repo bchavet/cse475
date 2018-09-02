@@ -1,0 +1,513 @@
+Run: 1
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1
+10 / 10 firefighters still alive (100.0%)
+391 / 100 total remaining firefighter health (391.0%)
+  Firefighter 0: 34
+  Firefighter 1: 18
+  Firefighter 2: 39
+  Firefighter 3: 23
+  Firefighter 4: 44
+  Firefighter 5: 79
+  Firefighter 6: 58
+  Firefighter 7: 33
+  Firefighter 8: 26
+  Firefighter 9: 37
+422797.8100000025 / 493695.0 total fuel remaining (85.63947578970874%)
+Run: 2
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197849982046
+10 / 10 firefighters still alive (100.0%)
+126 / 100 total remaining firefighter health (126.0%)
+  Firefighter 0: 9
+  Firefighter 1: 9
+  Firefighter 2: 16
+  Firefighter 3: 13
+  Firefighter 4: 10
+  Firefighter 5: 18
+  Firefighter 6: 10
+  Firefighter 7: 11
+  Firefighter 8: 19
+  Firefighter 9: 11
+494636.88 / 496777.0 total fuel remaining (99.5691990571222%)
+Run: 3
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197849984046
+10 / 10 firefighters still alive (100.0%)
+173 / 100 total remaining firefighter health (173.0%)
+  Firefighter 0: 12
+  Firefighter 1: 10
+  Firefighter 2: 14
+  Firefighter 3: 25
+  Firefighter 4: 17
+  Firefighter 5: 18
+  Firefighter 6: 11
+  Firefighter 7: 19
+  Firefighter 8: 26
+  Firefighter 9: 21
+481015.39 / 496113.0 total fuel remaining (96.95682032117683%)
+Run: 4
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197849989015
+10 / 10 firefighters still alive (100.0%)
+208 / 100 total remaining firefighter health (208.0%)
+  Firefighter 0: 17
+  Firefighter 1: 28
+  Firefighter 2: 19
+  Firefighter 3: 15
+  Firefighter 4: 17
+  Firefighter 5: 19
+  Firefighter 6: 23
+  Firefighter 7: 25
+  Firefighter 8: 16
+  Firefighter 9: 29
+478938.1500000001 / 493690.0 total fuel remaining (97.01192043590109%)
+Run: 5
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197849994890
+10 / 10 firefighters still alive (100.0%)
+239 / 100 total remaining firefighter health (239.0%)
+  Firefighter 0: 11
+  Firefighter 1: 18
+  Firefighter 2: 15
+  Firefighter 3: 22
+  Firefighter 4: 36
+  Firefighter 5: 9
+  Firefighter 6: 33
+  Firefighter 7: 29
+  Firefighter 8: 38
+  Firefighter 9: 28
+471239.79000000085 / 493918.0 total fuel remaining (95.40850708012277%)
+Run: 6
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850001531
+10 / 10 firefighters still alive (100.0%)
+116 / 100 total remaining firefighter health (116.0%)
+  Firefighter 0: 9
+  Firefighter 1: 8
+  Firefighter 2: 13
+  Firefighter 3: 11
+  Firefighter 4: 10
+  Firefighter 5: 18
+  Firefighter 6: 10
+  Firefighter 7: 11
+  Firefighter 8: 10
+  Firefighter 9: 16
+490089.26 / 492030.0 total fuel remaining (99.60556470133935%)
+Run: 7
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850003765
+10 / 10 firefighters still alive (100.0%)
+323 / 100 total remaining firefighter health (323.0%)
+  Firefighter 0: 29
+  Firefighter 1: 29
+  Firefighter 2: 11
+  Firefighter 3: 18
+  Firefighter 4: 20
+  Firefighter 5: 37
+  Firefighter 6: 28
+  Firefighter 7: 56
+  Firefighter 8: 44
+  Firefighter 9: 51
+453483.2399999999 / 495081.0 total fuel remaining (91.5977870287892%)
+Run: 8
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850012640
+10 / 10 firefighters still alive (100.0%)
+134 / 100 total remaining firefighter health (134.0%)
+  Firefighter 0: 12
+  Firefighter 1: 13
+  Firefighter 2: 10
+  Firefighter 3: 11
+  Firefighter 4: 13
+  Firefighter 5: 21
+  Firefighter 6: 14
+  Firefighter 7: 14
+  Firefighter 8: 13
+  Firefighter 9: 13
+486771.85000000015 / 488947.0 total fuel remaining (99.5551358327181%)
+Run: 9
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850014968
+10 / 10 firefighters still alive (100.0%)
+165 / 100 total remaining firefighter health (165.0%)
+  Firefighter 0: 10
+  Firefighter 1: 11
+  Firefighter 2: 18
+  Firefighter 3: 15
+  Firefighter 4: 15
+  Firefighter 5: 14
+  Firefighter 6: 12
+  Firefighter 7: 27
+  Firefighter 8: 20
+  Firefighter 9: 23
+489158.37 / 495647.0 total fuel remaining (98.69087677318737%)
+Run: 10
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850019171
+10 / 10 firefighters still alive (100.0%)
+132 / 100 total remaining firefighter health (132.0%)
+  Firefighter 0: 13
+  Firefighter 1: 13
+  Firefighter 2: 13
+  Firefighter 3: 11
+  Firefighter 4: 13
+  Firefighter 5: 12
+  Firefighter 6: 15
+  Firefighter 7: 16
+  Firefighter 8: 13
+  Firefighter 9: 13
+490931.4600000002 / 492908.0 total fuel remaining (99.5990042766602%)
+Run: 11
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850021531
+10 / 10 firefighters still alive (100.0%)
+142 / 100 total remaining firefighter health (142.0%)
+  Firefighter 0: 11
+  Firefighter 1: 8
+  Firefighter 2: 14
+  Firefighter 3: 16
+  Firefighter 4: 16
+  Firefighter 5: 21
+  Firefighter 6: 10
+  Firefighter 7: 12
+  Firefighter 8: 14
+  Firefighter 9: 20
+493372.5800000003 / 498659.0 total fuel remaining (98.93987273868521%)
+Run: 12
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850025484
+10 / 10 firefighters still alive (100.0%)
+143 / 100 total remaining firefighter health (143.0%)
+  Firefighter 0: 12
+  Firefighter 1: 8
+  Firefighter 2: 26
+  Firefighter 3: 11
+  Firefighter 4: 10
+  Firefighter 5: 16
+  Firefighter 6: 9
+  Firefighter 7: 15
+  Firefighter 8: 24
+  Firefighter 9: 12
+493280.32999999996 / 496508.0 total fuel remaining (99.3499258823624%)
+Run: 13
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850028156
+10 / 10 firefighters still alive (100.0%)
+105 / 100 total remaining firefighter health (105.0%)
+  Firefighter 0: 10
+  Firefighter 1: 10
+  Firefighter 2: 11
+  Firefighter 3: 10
+  Firefighter 4: 12
+  Firefighter 5: 9
+  Firefighter 6: 11
+  Firefighter 7: 12
+  Firefighter 8: 10
+  Firefighter 9: 10
+495629.42999999993 / 495940.0 total fuel remaining (99.93737750534338%)
+Run: 14
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850029203
+10 / 10 firefighters still alive (100.0%)
+196 / 100 total remaining firefighter health (196.0%)
+  Firefighter 0: 13
+  Firefighter 1: 17
+  Firefighter 2: 25
+  Firefighter 3: 32
+  Firefighter 4: 14
+  Firefighter 5: 8
+  Firefighter 6: 16
+  Firefighter 7: 29
+  Firefighter 8: 18
+  Firefighter 9: 24
+454931.4600000018 / 494583.0 total fuel remaining (91.98283402381436%)
+Run: 15
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850037218
+10 / 10 firefighters still alive (100.0%)
+150 / 100 total remaining firefighter health (150.0%)
+  Firefighter 0: 16
+  Firefighter 1: 11
+  Firefighter 2: 12
+  Firefighter 3: 14
+  Firefighter 4: 15
+  Firefighter 5: 14
+  Firefighter 6: 27
+  Firefighter 7: 13
+  Firefighter 8: 11
+  Firefighter 9: 17
+486811.80000000016 / 491705.0 total fuel remaining (99.00485046928547%)
+Run: 16
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850041015
+10 / 10 firefighters still alive (100.0%)
+135 / 100 total remaining firefighter health (135.0%)
+  Firefighter 0: 11
+  Firefighter 1: 14
+  Firefighter 2: 12
+  Firefighter 3: 10
+  Firefighter 4: 12
+  Firefighter 5: 15
+  Firefighter 6: 12
+  Firefighter 7: 14
+  Firefighter 8: 18
+  Firefighter 9: 17
+497259.4300000002 / 499714.0 total fuel remaining (99.50880503648091%)
+Run: 17
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850043812
+10 / 10 firefighters still alive (100.0%)
+125 / 100 total remaining firefighter health (125.0%)
+  Firefighter 0: 10
+  Firefighter 1: 12
+  Firefighter 2: 12
+  Firefighter 3: 12
+  Firefighter 4: 6
+  Firefighter 5: 20
+  Firefighter 6: 16
+  Firefighter 7: 7
+  Firefighter 8: 14
+  Firefighter 9: 16
+494297.6000000002 / 497894.0 total fuel remaining (99.2776775779584%)
+Run: 18
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850047406
+10 / 10 firefighters still alive (100.0%)
+195 / 100 total remaining firefighter health (195.0%)
+  Firefighter 0: 22
+  Firefighter 1: 18
+  Firefighter 2: 15
+  Firefighter 3: 18
+  Firefighter 4: 14
+  Firefighter 5: 21
+  Firefighter 6: 12
+  Firefighter 7: 31
+  Firefighter 8: 9
+  Firefighter 9: 35
+483427.1400000003 / 499604.0 total fuel remaining (96.7620635543351%)
+Run: 19
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850053437
+10 / 10 firefighters still alive (100.0%)
+117 / 100 total remaining firefighter health (117.0%)
+  Firefighter 0: 11
+  Firefighter 1: 10
+  Firefighter 2: 11
+  Firefighter 3: 11
+  Firefighter 4: 10
+  Firefighter 5: 11
+  Firefighter 6: 12
+  Firefighter 7: 15
+  Firefighter 8: 14
+  Firefighter 9: 12
+490473.38000000006 / 491293.0 total fuel remaining (99.83317083695475%)
+Run: 20
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850055296
+10 / 10 firefighters still alive (100.0%)
+248 / 100 total remaining firefighter health (248.0%)
+  Firefighter 0: 10
+  Firefighter 1: 28
+  Firefighter 2: 22
+  Firefighter 3: 27
+  Firefighter 4: 21
+  Firefighter 5: 12
+  Firefighter 6: 42
+  Firefighter 7: 31
+  Firefighter 8: 29
+  Firefighter 9: 26
+467911.38 / 497856.0 total fuel remaining (93.98528490165832%)
+Run: 21
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850064406
+10 / 10 firefighters still alive (100.0%)
+220 / 100 total remaining firefighter health (220.0%)
+  Firefighter 0: 17
+  Firefighter 1: 13
+  Firefighter 2: 32
+  Firefighter 3: 9
+  Firefighter 4: 24
+  Firefighter 5: 24
+  Firefighter 6: 20
+  Firefighter 7: 18
+  Firefighter 8: 30
+  Firefighter 9: 33
+454942.0100000008 / 491877.0 total fuel remaining (92.4910109641233%)
+Run: 22
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850072687
+10 / 10 firefighters still alive (100.0%)
+503 / 100 total remaining firefighter health (503.0%)
+  Firefighter 0: 10
+  Firefighter 1: 51
+  Firefighter 2: 23
+  Firefighter 3: 30
+  Firefighter 4: 52
+  Firefighter 5: 52
+  Firefighter 6: 44
+  Firefighter 7: 28
+  Firefighter 8: 80
+  Firefighter 9: 133
+402459.61000000144 / 496530.0 total fuel remaining (81.05443981229763%)
+Run: 23
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850084984
+10 / 10 firefighters still alive (100.0%)
+195 / 100 total remaining firefighter health (195.0%)
+  Firefighter 0: 18
+  Firefighter 1: 14
+  Firefighter 2: 21
+  Firefighter 3: 18
+  Firefighter 4: 16
+  Firefighter 5: 14
+  Firefighter 6: 21
+  Firefighter 7: 27
+  Firefighter 8: 21
+  Firefighter 9: 25
+483958.6999999995 / 495568.0 total fuel remaining (97.65737497174948%)
+Run: 24
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850089968
+10 / 10 firefighters still alive (100.0%)
+147 / 100 total remaining firefighter health (147.0%)
+  Firefighter 0: 14
+  Firefighter 1: 13
+  Firefighter 2: 11
+  Firefighter 3: 11
+  Firefighter 4: 17
+  Firefighter 5: 12
+  Firefighter 6: 15
+  Firefighter 7: 15
+  Firefighter 8: 16
+  Firefighter 9: 23
+486362.7500000003 / 493012.0 total fuel remaining (98.65130057686228%)
+Run: 25
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850093578
+10 / 10 firefighters still alive (100.0%)
+199 / 100 total remaining firefighter health (199.0%)
+  Firefighter 0: 23
+  Firefighter 1: 16
+  Firefighter 2: 14
+  Firefighter 3: 23
+  Firefighter 4: 14
+  Firefighter 5: 13
+  Firefighter 6: 18
+  Firefighter 7: 29
+  Firefighter 8: 26
+  Firefighter 9: 23
+479343.8900000002 / 493029.0 total fuel remaining (97.22427889637328%)
+Run: 26
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850099234
+10 / 10 firefighters still alive (100.0%)
+363 / 100 total remaining firefighter health (363.0%)
+  Firefighter 0: 33
+  Firefighter 1: 14
+  Firefighter 2: 31
+  Firefighter 3: 30
+  Firefighter 4: 46
+  Firefighter 5: 43
+  Firefighter 6: 30
+  Firefighter 7: 26
+  Firefighter 8: 44
+  Firefighter 9: 66
+434493.1100000016 / 492459.0 total fuel remaining (88.22929624598223%)
+Run: 27
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850109968
+10 / 10 firefighters still alive (100.0%)
+249 / 100 total remaining firefighter health (249.0%)
+  Firefighter 0: 16
+  Firefighter 1: 14
+  Firefighter 2: 21
+  Firefighter 3: 11
+  Firefighter 4: 27
+  Firefighter 5: 18
+  Firefighter 6: 34
+  Firefighter 7: 35
+  Firefighter 8: 36
+  Firefighter 9: 37
+467554.0900000009 / 496581.0 total fuel remaining (94.15464747946476%)
+Run: 28
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850117375
+10 / 10 firefighters still alive (100.0%)
+118 / 100 total remaining firefighter health (118.0%)
+  Firefighter 0: 10
+  Firefighter 1: 11
+  Firefighter 2: 12
+  Firefighter 3: 10
+  Firefighter 4: 11
+  Firefighter 5: 12
+  Firefighter 6: 11
+  Firefighter 7: 15
+  Firefighter 8: 11
+  Firefighter 9: 15
+488634.39 / 489778.0 total fuel remaining (99.76650441628657%)
+Run: 29
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850119453
+10 / 10 firefighters still alive (100.0%)
+129 / 100 total remaining firefighter health (129.0%)
+  Firefighter 0: 10
+  Firefighter 1: 14
+  Firefighter 2: 11
+  Firefighter 3: 15
+  Firefighter 4: 11
+  Firefighter 5: 13
+  Firefighter 6: 14
+  Firefighter 7: 13
+  Firefighter 8: 14
+  Firefighter 9: 14
+486973.62999999995 / 490867.0 total fuel remaining (99.20683810482268%)
+Run: 30
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850122828
+10 / 10 firefighters still alive (100.0%)
+319 / 100 total remaining firefighter health (319.0%)
+  Firefighter 0: 20
+  Firefighter 1: 25
+  Firefighter 2: 25
+  Firefighter 3: 53
+  Firefighter 4: 17
+  Firefighter 5: 12
+  Firefighter 6: 19
+  Firefighter 7: 43
+  Firefighter 8: 64
+  Firefighter 9: 41
+443578.6200000013 / 494088.0 total fuel remaining (89.77725020644121%)
+Run: 31
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850130718
+10 / 10 firefighters still alive (100.0%)
+447 / 100 total remaining firefighter health (447.0%)
+  Firefighter 0: 12
+  Firefighter 1: 30
+  Firefighter 2: 12
+  Firefighter 3: 23
+  Firefighter 4: 33
+  Firefighter 5: 63
+  Firefighter 6: 69
+  Firefighter 7: 56
+  Firefighter 8: 79
+  Firefighter 9: 70
+384590.9300000002 / 493865.0 total fuel remaining (77.87369625302466%)
+Run: 32
+-----
+10,1,100,50,100,0.02,100,100,100,10,5,1197850142968
+10 / 10 firefighters still alive (100.0%)
+197 / 100 total remaining firefighter health (197.0%)
+  Firefighter 0: 18
+  Firefighter 1: 17
+  Firefighter 2: 16
+  Firefighter 3: 17
+  Firefighter 4: 22
+  Firefighter 5: 20
+  Firefighter 6: 20
+  Firefighter 7: 13
+  Firefighter 8: 34
+  Firefighter 9: 20
+483951.8000000001 / 499565.0 total fuel remaining (96.87464093761574%)
+Batch Done

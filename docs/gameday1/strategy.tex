@@ -1,0 +1,61 @@
+\documentclass{article}
+
+\title{CSE475 Gameday Strategy}
+\author{Team Win: Ben Chavet, Justin McKinstry, Steve Mott}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+Since we have three team members, we will split our strategy into three rolls:
+Bidder, Money Tracker, and Utility Tracker.
+
+The Bidder will use the information given to him by the other two team members
+and the auction protocol being used to decide what the bid should be.
+
+The Money Tracker will keep a tally of how much money each of the other teams
+have left in order to help the Bidder decide what the best bid is.
+
+The Utility Tracker will speculate about the other teams' utilities based on
+their bidding trends. He will watch for potential "Yahtzee" utilities and keep
+track of how many each team has. This information is given to the Bidder so the
+bidder can speculate about the competition for the bid.
+
+Our overall strategy will follow with the dominant strategies described in
+class for the different auction protocols.  Each strategy, however, will be altered to accommodate for the fact that other teams will most likely be basing their strategies in a similar manner.
+
+General Rules:
+All bids under the price of the item will be invalidated by the auctioneer, so we will not be doing ANY bids under the value of the item, if given.
+If we have any items that have an extremely low value, we will not even enter into the bidding.  Entering bidding costs money, and is better spent in other venues.
+Using percentages, say 40\% of value for items we don't' need at all, 80\% for items we could use but don't need, 100\% for items that we wouldn't mind having, and 125\% for items we absolutely must have.
+
+\begin{description}
+  \item \textbf{English:}
+    Bid 10\%/20\% higher than last bid until bidding would surpass our given value.
+  \item \textbf{English open exit:}
+    Same as English, but exit if bidding would put us over our given value.
+  \item \textbf{Dutch:}
+    Bid at the first value that is at or below our decided value.
+  \item \textbf{First price sealed bid:}
+    Bid our given value.
+  \item \textbf{Vickrey:}
+    Bid our given value.
+\end{description}
+
+With our extra information about the money and utilities of the other teams, we
+can modify the strategies, though. If we are fairly confident that the teams
+with high utilities for specific items are low on money, we can bid just above
+their limit to ensure they don't gain utility while we gain a little bit. This
+strategy only works if we monitor our money very closely too, though. If we
+concentrate too hard on exploiting other teams, we will waste our money and
+end up not winning our high utility items.
+
+The reason we don't just follow the dominant strategies to the letter is
+because we are assuming that the gameday is set up in a fashion that if all
+teams follow the strategy to the letter, it will end in a tie. This assumption
+may have to be modified based on our observations of the first gameday. We are
+also assuming that with our extra person and greater capacity for information
+gathering, we will have an advantage over the other teams and be able to make
+better informed decisions quicker.
+
+\end{document}

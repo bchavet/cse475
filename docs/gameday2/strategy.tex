@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\title{CSE475 Gameday \#2 Strategy}
+\author{Team Win: Ben Chavet, Justin McKinstry, Steve Mott}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+Our dominant strategy is to complete as many tasks as possible by
+place a large number of short-lived announcements.
+
+\section{Announcement Strategy}
+
+At the beginning of each round, we will calculate the total number of subtasks
+that we need in order to complete all of our tasks.  We will then divide those
+subtasks such that we can make two-minute announcements, staggering the start
+of each announcement by one minute, for eight minutes.  If all goes in our favor,
+we will have all of our tasks completed at the end of eight minutes.  Assuming
+that is not going to be the case, we have another eight minutes to re-announce
+any subtasks that we do not have completed.  At the end of 16 minutes, we will
+assess the completeness of each task and decide to either sell those subtasks
+or pursue the remaining subtasks we need.
+
+Total number of subtasks per announcement:
+
+\[ \frac{TotalSubtasks}{8} = \frac{Subtasks}{Announcement} \]
+
+Number of announcements each task will take:
+
+\[ \forall{Tasks}, \frac{Subtasks_{Task_i}}{\frac{Subtasks}{Announcement}} = \frac{Annoucements}{Task_i} \]
+
+Number of subtasks per task in each announcement:
+
+\[ \forall{Subtask \in Task_i}, \frac{Subtask_j}{\frac{Announcements}{Task_i}} = \frac{Subtasks_{Task_i}}{Announcement} \]
+
+\section{Bidding Strategy}
+
+Take any extra subtasks that will not apply to our tasks, and use them to
+place bids.  Given the aggressive nature of our announcement strategy,
+we will sacrifice bidding until we have either completed all of our tasks
+or we reach sixteen minutes.  At that point we will start bidding our
+extra subtasks.
+
+\end{document}

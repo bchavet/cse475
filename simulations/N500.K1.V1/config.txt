@@ -1,0 +1,54 @@
+runs: 32
+AgentShotStrengthPercent {
+  set: 100
+}
+
+GridSize {
+  set: 100
+}
+
+NumberOfFirefighters {
+  set: 500
+}
+
+AgentEnergy {
+  set: 10
+}
+
+AgentExtinguishBonus {
+  set: 1
+}
+
+ShowFlamability {
+  set_boolean: false
+}
+
+NumberOfFires {
+  set: 1
+}
+
+MaxFlamability {
+  set: 100
+}
+
+ShowFuelLevel {
+  set_boolean: false
+}
+
+AgentVisibility {
+  set: 1
+}
+
+MaxFuelLevel {
+  set: 100
+}
+
+MaxFireStrength {
+  set: 100
+}
+
+IgnitionProbability {
+  set: 0.02
+}
+
+

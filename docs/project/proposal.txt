@@ -1,0 +1,47 @@
+CSE475 Project Proposal
+Team Win
+
+Firefighter Agents and Fire Agents:
+
+* 2-dimensional grid for locations
+* arbitrarily complicated: fire measures its neighbors and spreads faster when
+  it has many neighbors.
+* A firefighter dies if exposed to heat too long, have fire fighters spray
+  "hot" firefighters to cool them off
+* If a firefighter dies, the firefighters directly adjacent to him are not
+  as effective.
+* The longer two firefighters are stationed next to eachother, the stronger
+  their bond, and the more significant the loss of effectiveness is if one
+  of them dies
+
+Firefighter Variables:
+
+* Location (x,y)
+* Age
+* Heat felt
+* Danger of burning
+* Effectiveness
+
+Fire Variables:
+
+* Location (x,y)
+* Age
+* Probability of spreading (bell-curve wrt age)
+* Probability of spreading (bell-curve wrt age)
+
+Firefighter agents can move at will by asking their neighbors how much heat
+they feel and move towards the hottest one.
+
+To put out a fire, a firefighter must be adjacent to it.
+
+To spread, the % chance increases with more adjacent fire.
+
+During a tick, either do all firefighters then fires, or interleave them.
+* One tick for firefighter = move, spray fire, spray firefighter, die
+* One tick for fire = go out, get stronger, spread
+
+Environment:
+
+* Each square in the environment can have a variable "combustability" value,
+  where a fire is more likely to spread to a square with higher
+  combustability.

@@ -1,0 +1,169 @@
+\documentclass{article}
+
+\title{CSE475 Project Proposal}
+\author{Ben Chavet, Justin McKinstry, Steve Mott}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Problem Statement}
+
+The objective of this project is to design a multiagent system where
+individual agents work together to effectively and efficiently extinguish
+a fire in a specific area.  The area's size is $L \times L$ square units,
+each with its own ``flammability'' value, where the entire area has a total
+flammability value of $F$.  There are $K$ fires initially
+started in random locations, $N$ firefighters randomly dropped into
+the area.  Each firefighter has an initial ``energy'' level $E$, that
+determines their effectiveness, as well as their life.
+
+The fire is able to spread if not attended to quickly enough, and is
+also capable of killing firefighters.  If a firefighter is killed, any
+firefighters in a directly adjacent location becomes less effective at
+fighting the fire.
+
+A fire can be extinguished in two ways.  It can burn itself out, which is a
+function of time and the flammability of the space occupied.  Or, it can be
+extinguished by one or more firefighters.  Either way, a fire is considered
+extinguished when its strength is reduced to zero.  As a fire burns, its
+intensity increases based on the flammability of the space it occupies.
+Once the flammability is sufficiently low, the intensity of the fire begins
+to decline due to the reduced amount of fuel it has to burn.
+
+The simulation is ended when there are no remaining fires.  If all of the
+firefighters in the area are killed, the fire is allowed to burn itself out,
+even if there are still firefighters in reserve.  In order to be optimally
+efficient, the fire must be completely extinguished by the firefighters,
+and all of the firefighters must survive.
+
+\section{Agent Design Strategy}
+
+There are two types of agents, fire agents and firefighter agents.  Firefighter
+agents are free to move about the environment one square at a time in any
+direction (north, south, east, west).  Fire agents are not allowed to move, but
+can spawn new fire agents in adjacent spaces if the conditions are right.  The
+goal of the firefighter agents is to extinguish the fire agents.  This is
+accomplished by moving to a space adjacent to a fire and spraying water in
+the fire's direction.
+
+Firefighter agents make their decisions based on the following two goals,
+in this order:
+
+\begin{enumerate}
+  \item Stay alive (keep their own energy level above zero)
+  \item extinguish the fire (achieved by spraying a fire)
+  \item maximize their own energy level (achieved by spraying a fire)
+\end{enumerate}
+
+In order to stay alive, a firefighter agent must keep its energy level above
+zero.  If a firefighter's energy level reaches zero, that firefighter dies.
+When a firefighter dies, the energy level of any adjacent firefighters is
+reduced by a percentage, $P$, to simulate the emotional stress of losing a
+friend.
+
+As a firefighter sprays a fire, the intensity of the fire is reduced, and the
+firefighter's energy increases.  This is how the system rewards a firefighter
+agent, and motivates a firefighter to attempt to extinguish a fire.
+
+If a firefighter and a fire occupy the same space, the firefighter loses
+energy points.  This is how the system applies a cost to a firefighter's
+actions.  A firefighter must observe the flammability of the space it occupies
+as well as the intensity of any adjacent fires to determine the risk of the
+fire spreading vs the cost that it would incur if the fire did spread.  This
+information is used by the firefighter agent in order to decide whether
+spraying the fire or moving to another location would maximize its utility.
+This utility is:
+
+\[ U_{action} = Reward_{action} - Risk_{action} \]
+
+Firefighter agents are able to communicate with all other firefighter agents
+in the same manner that real firefighters communicate with each other using
+two way radios.  A firefighter broadcasts to the other agents when they have
+located a fire, or when they have extinguished a fire and there are no adjacent
+fires.  In the latter case, the firefighter would wait a sufficient amount of
+time for a response and move toward the firefighter that needs the most help.
+
+A firefighter agent bases all of its decisions solely on its own observations.
+
+\section{Desired Emergent Behavior}
+
+The desired emergent behavior is that the firefighters are able to
+successfully extinguish all of the fire in the environment, preserving
+the lives of all of the firefighters, and maintaining the highest
+amount of collective energy.
+
+The flammability of a space can be modified by having a fire burning on it,
+or by being sprayed by a firefighter.  Both methods reduce the flammability
+of the space.  If the flammability of a space is zero, there is no chance
+for a fire to start there.  If a fire is extinguished on a space before the
+flammability reaches zero, there is still opportunity for a new fire to
+burn in that space.
+
+\section{Hypotheses}
+
+\begin{description}
+
+  \item \textbf{Hypothesis 1:}
+    The effectiveness of the team of firefighter agents is proportional to
+    $\frac{N}{K}$.  However, if $N \ll K$, then the effectiveness becomes
+    non-existent, and the fire will end up burning itself out, potentially
+    killing all of the firefighters.
+  
+  \item \textbf{Hypothesis 2:}
+    The effectiveness of the team is directly proportional to $E$, but
+    inversely proportional to $P$.  That is, if a firefighter has more 
+    energy, it is more efficient.  However, the more they are affected by
+    being adjacent to a firefighter that dies, the less efficient they will
+    be.
+
+  \item \textbf{Hypothesis 3:}
+    If $L \times L \gg N$ and $K \gg N$, then the system will not achieve
+    coherence.  On the other hand, if $N \gg L \times L$ and $N \gg K$, then
+    the system will achieve coherence quickly.
+
+  \item \textbf{Hypothesis 4:}
+    The effectiveness of the team is inversely proportional to the $\frac{F}{L}$.
+    That is, the higher the concentration of flammability in the environment,
+    the faster the fire will spread, and the less efficient the team will be.
+
+\end{description}
+
+\section{Experiments}
+
+Our experiments are designed to test the above hypotheses.  We will run numerous
+simulations varying the following key parameters:
+
+\bigskip
+\begin{tabular}{ | l | l | }
+  \hline
+  {\bf Parameter} & {\bf Range of Values} \\
+  \hline
+  $L$ & 100, 250, 500, 750, 1000\\
+  \hline
+  $N$ & 100, 500, 1000 \\
+  \hline
+  $K$ & 100, 500, 1000 \\
+  \hline
+  $P$ & 1\%, 10\%, 25\%, 50\% \\
+  \hline
+  $E$ & 100, 500, 1000 \\
+  \hline
+  $F$ & 100, 1000, 10000 \\
+  \hline
+\end{tabular}
+\bigskip
+
+Thus, there are $5 \times 3 \times 3 \times 4 \times 3 \times 3 = 1620$ different
+configurations.  For each configuration we will run five simulations and
+average the results.  For each run, we will collect the number of firefighters
+that survive, the total amount of energy of the surviving firefighters, 
+how many fires were extinguished, and how many fires burned themselves out.
+The first two values will determine the efficiency of the system, while
+the last two will determine the effectiveness.  We will then plot the results
+accordingly to respond to the hypotheses posed.
+
+If we are able to achieve coherence, we would also like to see how different
+flammability patterns across the area affect the outcome.
+
+\end{document}
